@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+    color: white;
+}
+h1 u{
+    color: yellow;
+}
+.textArea{
+    background-color: rgb(239, 239, 233, 0.4);
+    width: 600px;
+    height: 300px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.textArea::placeholder{
+    color: white;
+    font-size: 1.25rem;
+}
+.btn{
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(52, 8, 93);
+    border-radius: 2rem;
+    border: none;
+    margin-top: 2rem;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 0px 7px 12px black;
+}
